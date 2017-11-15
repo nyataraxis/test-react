@@ -36,11 +36,7 @@ class Department extends Component {
 
     render() {
         const { department, handleSubmit, isNew } = this.props;
-        const delButton = <RaisedButton
-                                primary
-                                label="Delete"
-                                type="submit"
-                            />;
+        
         return (
             <div>
                 {(department || isNew) ?
@@ -57,7 +53,6 @@ class Department extends Component {
                                 type="submit"
                             />
 
-                            {department && delButton};
                         </form>
                     </div>
                     :

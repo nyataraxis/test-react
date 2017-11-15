@@ -79,7 +79,7 @@ class App extends Component {
                     <div className="content">
                         {children ||
                             <h1>
-                                Hello World!
+                                Feel free to choose any you like.
                             </h1>
                         }
                     </div>
